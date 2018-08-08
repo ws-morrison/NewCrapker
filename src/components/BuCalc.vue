@@ -36,8 +36,8 @@
     methods: {
       // Сброс
       resetCalc: function() {
-        this.carbs = null;
-        this.nett = null;
+        this.carbs = "";
+        this.nett = "";
       }
     }
   };
