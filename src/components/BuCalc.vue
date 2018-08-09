@@ -9,7 +9,7 @@
 
     <!--https://thenounproject.com/search/?q=reset&i=415758 -->
     <button class="bu-calc__reset" v-on:click="resetCalc">
-      <svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+      <!-- <svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
         xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
         xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" version="1.1" x="0px" y="0px" viewBox="0 0 100 125" width="25px"
         height="25px">
@@ -19,7 +19,7 @@
             fill="#000000" fill-opacity="1" stroke="none" marker="none" visibility="visible" display="inline" overflow="visible"
           />
         </g>
-      </svg>
+      </svg> -->
     </button>
 
   </div>
@@ -63,6 +63,7 @@
   .bu-calc {
     width: 320px;
     margin: 0 auto;
+    padding: 0;
     display: flex;
     flex-direction: column;
   }
@@ -89,8 +90,13 @@
     position: relative;
     left: 259px;
     top: -52px;
-    width: 35px;
+    width: 24px;
+    height: 24px;
     background-color: inherit;
+    background-image: url("../assets/reset.svg");
+    background-repeat: no-repeat;
+    background-position: 2px 2px;
+    border-radius: 50%;
     border: none;
     padding: 0;
     margin: 0;
