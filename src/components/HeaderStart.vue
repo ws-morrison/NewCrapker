@@ -6,13 +6,13 @@
 
 <script>
 export default {
-  name: "HeaderStart",
-  data() {
+  name: 'HeaderStart',
+  data () {
     return {
-      msg: "NewCrapker"
-    };
+      msg: 'NewCrapker'
+    }
   }
-};
+}
 </script>
 
 <!-- Аттрибут scoped добавляет стили конкретному компоненту -->
