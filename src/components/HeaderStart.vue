@@ -17,7 +17,11 @@ export default {
 
 <!-- Аттрибут scoped добавляет стили конкретному компоненту -->
 <style scoped>
-h1 {
+.header {
+  width: 320px;
+  margin: 0 auto;
+}
+.header__title {
   font-weight: 400;
 }
 </style>
